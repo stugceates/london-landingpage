@@ -2,7 +2,7 @@ body{
     font-family: "Poppins", sans-serif;
     color: #272044;
     background-color: rgb(255, 255, 255) ;
-    padding: 10px 5px;
+    margin: 0;
 
 }
 .container{
@@ -22,10 +22,16 @@ body{
 .align-vertical-center {
     align-items: center;
 }
+.text-center{
+    text-align: center;
+}
 section{
     max-width: 100%;
     margin: 0 auto;
     padding: 50px 100px;
+}
+section.secondary{
+    background-color: azure ;
 }
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/london.jpg") ;
@@ -144,6 +150,9 @@ footer a{
     }
     header h3{
         font-size: 12px;
+    }
+    main h2{
+        font-size: 24px;
     }
     .grid{
         grid-template-columns: 1fr;
