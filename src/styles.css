@@ -16,6 +16,9 @@ body{
 .grid-2-columns{
     grid-template-columns: 1fr 1fr;
 }
+.grid-3-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-3-columns-with-first-narrow{
     grid-template-columns: 1fr 2fr 2fr;
 }
@@ -24,6 +27,32 @@ body{
 }
 .text-center{
     text-align: center;
+}
+.card{
+    background-color: white;
+    margin: 30px 0;
+}
+.card p{
+    font-size: 12px;
+}
+.card-body{
+    padding: 30px;
+}
+.card-footer{
+    padding: 30px;
+}
+.btn {
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 16px 32px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #272044;
+    text-decoration: none;
 }
 section{
     max-width: 100%;
@@ -77,6 +106,14 @@ main {
 .img-responsive{
     max-width: 100%;
     height: auto;
+    display: block;
+}
+main h2{
+    color: #272044;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 0;
 }
 main h3{
     font-weight: 700;
@@ -89,14 +126,21 @@ main h3{
     text-transform: uppercase;
 
 }
-main h2{
-    color: #272044;
-    font-size: 40px;
+
+.main h4{
     font-weight: 700;
-    line-height: 50px;
+    font-size: 24px;
+    line-height: 1;
+    color: #272044;
     margin: 0;
 }
-
+.main h5{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    color: #272044;
+    margin: 0;
+}
 main p{
     color: #272044;
     font-size: 16px;
@@ -153,6 +197,9 @@ footer a{
     }
     main h2{
         font-size: 24px;
+    }
+    .card p{
+        font-size: 14px;
     }
     .grid{
         grid-template-columns: 1fr;
