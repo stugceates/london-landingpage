@@ -155,7 +155,9 @@ main p{
     line-height: 1.5;
     opacity: 0.7;
 }
-
+.instagram-embed{
+    margin: 30px 0;
+}
 footer{
     color: white;
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/towerbridge.jpg);
@@ -221,4 +223,5 @@ footer a{
     .embed {
         aspect-ratio: 16 / 9;
     }
+    
 }
